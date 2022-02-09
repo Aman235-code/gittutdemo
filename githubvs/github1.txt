@@ -1,0 +1,17 @@
+pull --> code from github is sent to the computer
+push --> from the computer code is sent to the remote repository (github)
+git remote --> hosting git repository
+git remote add origin git@github.com:Aman235-code/gittutdemo.git --> git remote add kardo ek url ko jiska naam origin 
+rakh raha hu me
+origin can b anything that url link name is now origin and added as a remote
+
+$ git remote
+origin
+the origin is the name of the URL
+
+$ git remote -v
+origin  git@github.com:Aman235-code/gittutdemo.git (fetch)
+origin  git@github.com:Aman235-code/gittutdemo.git (push)
+
+$ git push -u origin master
+push the code into github
